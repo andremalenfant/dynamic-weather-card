@@ -36,7 +36,8 @@ export const cardStyles = css`
     overflow: visible;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     /* Sky colors come from the condition and time of day (see sky.ts) */
-    background: linear-gradient(to bottom, var(--dwc-sky-top, #2E6FC7), var(--dwc-sky-bottom, #8CC2EC));
+    background: linear-gradient(to bottom, var(--dwc-sky-top, #2E6FC7), transparent 30%),
+                linear-gradient(to bottom, transparent 30%, var(--dwc-sky-bottom, #8CC2EC));
     transition: --dwc-sky-top 2s ease-in-out, --dwc-sky-bottom 2s ease-in-out, min-height 0.3s ease;
   }
 
