@@ -7,7 +7,7 @@ yarn-error.log
 # Build artifacts
 *.map
 # Built bundle: \`bun run build\` makes it; releases attach it for HACS and manual installs
-dynamic-weather-card.js
+#dynamic-weather-card.js
 # GitHub Actions
 !.github/
 
